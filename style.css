@@ -19,3 +19,23 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+.title {
+    position: absolute;
+    margin-top: 325px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+.button {
+    position: absolute;
+    margin-top: 550px;
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    
+}
