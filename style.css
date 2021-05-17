@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    max-width: 1440;
+    height: 800px;
+    background-color: #eff0f2;
+}
+
+.border {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 64px;
+    border-style: solid;
+    width: 113px;
+    height: 45px;
+}
+
+.shopno {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
