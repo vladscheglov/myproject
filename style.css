@@ -1,41 +1,51 @@
-.container {
-    width: 100%;
-    max-width: 1440;
-    height: 800px;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-rows: 110px 300px 210px 60px;
+    margin: 0 auto;
     background-color: #eff0f2;
+    height: 880px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
 }
 
-.border {
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 64px;
-    border-style: solid;
-    width: 113px;
-    height: 45px;
-}
-
-.shopno {
-    font-family: 'Merriweather', serif;
-    text-transform: uppercase;
-    text-align: center;
+.inner {
+    border: 3px solid black;
+    padding: 3px;
+    justify-self: flex-end;
+    justify-self: left;
+    margin: 0 150px 0 150px;
 }
 
 .title {
-    position: absolute;
-    margin-top: 325px;
-    text-align: center;
-    width: 100%;
     font-family: 'Montserrat', sans-serif;
-    text-decoration: solid;
+    text-align: center;
+    font-size: 14px;
     text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 1em 1em #505050;
+    color: #505050;
 }
 
-.button {
-    position: absolute;
-    margin-top: 550px;
-    width:100%;
-    text-align: center;
+.bg {
+    background-color:#b2f2ee;
+    padding: 3px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    border-style: solid;
-    
+    border: 1px solid black;
+    padding: 15px 40px 15px 40px;
+    font-weight: 500;
 }
