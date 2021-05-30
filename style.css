@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0 auto;
+    background-color: #eff0f2;
+    height: 800px;
+    width: 100%;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 2fr 4fr 4fr 2fr;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner_logo {
+    border: 5px solid black;
+    padding: 8px;
+}
+
+.inner {
+    display: flex;
+    align-items: flex-end;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 1em 1em #505050;
+    color: #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2, h3, h4, h5, h6 {
+text-align: center;
+}
+
+.backg {
+    background-color:#b2f2ee;
+    padding: 3px;
+}
+
+.contact_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px 40px 15px 40px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color:black;
+    color: #fff;
+    transition:1s;
+}
+
+.glass { 
+    position: absolute;
+    right: 200px;
+    top: 600px;
+}
+
+.about_work {
+    width: 100%;
+    height: 1000px;
+    background: #f8fafa;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 70%;
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
+.about_us {
+    grid-column: 1/3;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.about {
+    text-align: center;
+}
+
+.photo_work {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+.text_work {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #5e5f5f;
+    line-height: 20pt;
+    
+}
+
+.about {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #5e5f5f;
+}
+
+h3, h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: start;
+    font-size: 17px;
+    margin-bottom: 15px; 
+    color: #5e5f5f;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+ 
+.works {
+    margin: 0 auto;
+    width: 1130px;
+    height: 1166px;
+}
+
+.feature_work {
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.featured_works_text {
+    text-align: center;
+} 
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.featured_works_text {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #5e5f5f;
+    
+}
+
+.container_team {
+    width: 100%;
+    background-color:#f9fbfb;
+}
+
+.small_team {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 276px;
+    height: 276px;
+    background-color:#f9fbfb;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.small_team p {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #5e5f5f;
+}
+
+.team_work {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 95px 0 95px;
+    grid-gap: 10px;
+}
+
+.photo_work a {
+    text-decoration: none;
+}
